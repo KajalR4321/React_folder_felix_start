@@ -1,0 +1,24 @@
+*, *::before, 
+*::before{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;/*parent color is this so also gollow the child*/
+}
+button{
+  all:unset;
+  cursor: pointer;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--main-bg);
+  color: var(--text-color);
+}
