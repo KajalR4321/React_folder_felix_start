@@ -1,7 +1,10 @@
+import Banner from "../componets/BannerFolder/Banner";
+
 const Home = () =>{
     return(
         <>
-        This is home where components will go
+        {/* This is home where components will go */}
+        <Banner/>
         </>
     )
 }

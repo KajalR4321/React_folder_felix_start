@@ -1,0 +1,60 @@
+
+.banner_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2em;
+}
+
+.banner_section>* {
+    flex: 1;
+}
+
+.banner_section_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.banner_section_left h1 {
+    font-size: 6.2rem;
+    font-weight: 800;
+}
+
+.banner_section_left p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-color2);
+}
+
+.banner_section_left>div {
+    display: flex;
+}
+
+.banner_section_left input {
+    all: unset;
+    background: #052d56;
+    padding: 0.8em 1em;
+    font-size: 1.8rem;
+    flex: 1;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.banner_section_left div .pry_btn {
+    border-radius: 0px 4px 4px 0px;
+}
+
+
+.banner_section_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_section_right img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+}

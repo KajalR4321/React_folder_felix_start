@@ -1,24 +1,56 @@
-*, *::before, 
-*::before{
-  margin:0;
+*,
+*::before,
+*::after {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
+
+a {
   text-decoration: none;
-  color: inherit;/*parent color is this so also gollow the child*/
+  color: inherit;
 }
-button{
-  all:unset;
+
+button {
+  all: unset;
   cursor: pointer;
 }
-html{
+
+html {
   font-size: 62.5%;
 }
-body{
+
+/* page setting */
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: var(--main-bg);
   color: var(--text-color);
+  padding: 0% 6%;
+  font-family: var(--font);
+}
+
+.pry_btn {
+  all: unset;
+  padding: 0.8em 2em;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.pry_btn.active {
+  background: var(--pry-btn);
+}
+
+.pry_btn:hover {
+  cursor: pointer;
+  background: var(--pry-btn);
+}
+
+
+.gradient_text {
+  background: linear-gradient(90deg, var(--text-grad-1) 0%, var(--text-grad-2) 100%);
+  color: transparent;
+  background-clip: text;
 }
