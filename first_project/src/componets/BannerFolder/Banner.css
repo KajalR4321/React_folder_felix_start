@@ -18,9 +18,16 @@
 }
 
 .banner_section_left h1 {
-    font-size: 6.2rem;
+  font-size: 5.5rem;
     font-weight: 800;
+    line-height: 110%;
+    margin-bottom: 0.7em;
+  background: linear-gradient(135deg, #7a5cff, #e76f0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+
 
 .banner_section_left p {
     font-size: 2rem;
@@ -58,3 +65,29 @@
   height: auto;
   object-fit: contain;
 }
+.small_section_left{
+display: flex;
+padding: 2rem;
+margin-bottom:40px ;
+
+}
+.small-img img{
+/* padding: 8rem; */
+width:36px;
+height:36px;
+border-radius: 50px;
+margin-left: -10px;
+align-items: center;
+border:2px solid white;
+
+
+}
+.small_section_left p{
+  margin-left: 20px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+ 
+
+}
+

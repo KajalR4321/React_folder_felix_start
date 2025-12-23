@@ -7,7 +7,7 @@ const MainHeader = () => {
     <header className="main_header">
      
 
-      <div className="main_header__button"></div>
+      
       <div className="main_header__logo">
         <h1>Gpt 3</h1>
       </div>
