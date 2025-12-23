@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./MainHeader.css";
+import "./Mainheader.css";
 const MainHeader = () => {
   let [open, setOpen] = useState(false);
   console.log(open);
