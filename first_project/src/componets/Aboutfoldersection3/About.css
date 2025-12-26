@@ -1,0 +1,105 @@
+.container{
+  padding: 8rem;
+}
+.about_section{
+    padding: 6em;
+    background: var(--bg-grad-1);
+    box-shadow: 0px 4px 4px #000;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    position: relative;
+}
+.about_section .top_circle{
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  z-index: 0px;
+  width: 200px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg-grad-2);
+  filter: blur(100px);
+
+}
+.about_section .bottom_circle{
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  z-index: 0px;
+  width: 200px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg-grad-2);
+  filter: blur(120px);
+
+}
+
+.about_section header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 2em;
+}
+.about_section header > h2{
+    flex-basis: 30%;
+    font-size: 2.4rem;
+    font-weight: 800;
+    z-index: 2;
+}
+.about_section header > p{
+    flex-basis: 58%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text-color2);
+}
+.about_section .about_section_center{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.about_section .about_section_center .gradient_text{
+   background: linear-gradient(90deg, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.about_section .about_section_center h3{
+    font-size: 2.3rem;
+    font-weight: 800;
+       
+}
+.about_section .about_section_center a{
+  color: var(--accent-color);
+  font-size: 1.6rem;
+
+   
+ }
+ .about_section .about_section_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:4rem;
+ }
+  .about_section .about_section_cards h4{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom:25px;
+  }
+  .about_section .about_section_cards p{
+    font-size:1.2rem ;
+    font-weight: 500;
+    color: var(--text-color2);
+  }
+.gradient_line span {
+    display: block;
+    width: 38px;
+    height: 3px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #AE67FA, #F49867);
+    margin-bottom: 3px;
+
+}
+
+  

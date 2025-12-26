@@ -12,20 +12,23 @@ const About=()=>{
         {
             id:"card_2",
             title:"Knowledgebase",
-            p:" At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+            p:" At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments "
 
         },
     
         {
             id:"card_3",
             title:"Education",
-            p:"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b "
+            p:"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments  "
 
         },
-    ]
+    ];
     return(
         <>
-        <section>
+        <div className="container">
+        <section  className="about_section">
+            {/* use for topleftcircle blur part  */}
+            <div className="top_circle" />
         
            
             <header>
@@ -35,14 +38,14 @@ const About=()=>{
                 </h2>
                 <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.</p>
                 </header>  
-                <div>
-                    <h3 className="gradient_line">
+                <div className="about_section_center">
+                    <h3 className="gradient_text">
                         The possibilities are beyond your imagination
                         </h3>
                         <a href=""> Explore The Library</a>
                         </div>
                          {/*we are taking this card with the helf of js  be call */}
-                         <div>
+                         <div className="about_section_cards">
                             {
                                 data.map((items) =>(
                                     <div>
@@ -63,8 +66,12 @@ const About=()=>{
                             }
 
                         </div>
+                        {/* div closing not take because i dont want to contain it take only for design */}
+            <div className="bottom_circle" />
+
 
         </section>
+        </div>
         </>
     )
 }
