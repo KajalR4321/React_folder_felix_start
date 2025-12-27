@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 4em;
     position: relative;
+    overflow: hidden;
 }
 .about_section .top_circle{
   position: absolute;
@@ -16,10 +17,11 @@
   left: -80px;
   z-index: 0px;
   width: 200px;
-  height: 20px;
+  height: 200px;
   border-radius: 50%;
+  padding: 6em;
   background: var(--bg-grad-2);
-  filter: blur(100px);
+  filter: blur(130px);
 
 }
 .about_section .bottom_circle{
@@ -27,11 +29,11 @@
   top: -80px;
   left: -80px;
   z-index: 0px;
-  width: 200px;
-  height: 20px;
+  width: 100px;
+  height: 200px;
   border-radius: 50%;
   background: var(--bg-grad-2);
-  filter: blur(120px);
+  filter: blur(70px);
 
 }
 

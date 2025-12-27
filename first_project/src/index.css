@@ -57,7 +57,7 @@ body {
 .gradient_line span{
   display: block;
   background: linear-gradient(90deg, var(--text-grad-1) 0%, var(--text-grad-2), 100%);
-  width: 38%;
+  width: 40px;
   height: 2px;
   border-radius: 3px;
   border-radius: 4px;
