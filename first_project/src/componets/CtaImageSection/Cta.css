@@ -1,0 +1,39 @@
+.cta_section {
+    margin-bottom: 120px;
+   
+}
+
+.cta_section>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 3em;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #7a5cff, #e09353);
+    /* background: linear-gradient(89.97deg, var(--text-grad-1) 1.84%, var(--text-grad-2) 102.67%); */
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 1px solid black;
+}
+
+.cta_section h3 {
+    font-size: 2.6rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.cta_section p {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+}
+
+.cta_section button {
+    all: unset;
+    font-size: 1.6rem;
+    padding: 1em 2em;
+    background: #000;
+    color: var(--text-color);
+    cursor: pointer;
+    border-radius: 30px;
+}
