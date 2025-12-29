@@ -4,6 +4,7 @@ import About from "../componets/Aboutfoldersection3/About";
 import Access from "../componets/AccessFolder/Access";
 import Features from "../componets/FeaturesFolder/Feature";
 import Cta from "../componets/CtaImageSection/Cta";
+import Blog from "../componets/BlogImageScevtion/Blog";
 
 
 
@@ -19,6 +20,7 @@ const Home = () =>{
         <Access/>
         <Features/>
        <Cta/>
+       <Blog/>
         <h1>Hello</h1>
         </>
     )
