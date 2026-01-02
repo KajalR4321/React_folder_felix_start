@@ -1,0 +1,93 @@
+.footer_section{
+   margin-top: 12rem;            /* like Figma footer height */
+  /* width: 100vw;                 full screen width */
+  min-height: 100vh;            /* like Figma footer height */
+  background: linear-gradient(
+    90deg,
+    #031b34 0%,
+    #042c54 50%,
+    #031b34 100%
+  );
+  color: #ffffff;
+  padding: 40px 70px;
+
+  /* box-sizing: border-box; */
+
+
+}
+.footer_main {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.footer_heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.4;
+   background: linear-gradient(135deg, #7a5cff, #e76f0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer_main a{
+    font-size: 1.3rem;
+    border: 1px solid white;
+    padding: 11px 12px;
+    margin-top: r10remem;
+}
+
+.footer_brand {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+  margin-top: 20px;
+  color: #ffffff;
+} 
+
+/* Brand (GPT-3) */
+ .footer_gpt h1 {
+  font-size: 32px;
+  margin-bottom: 13px;
+}
+
+.footer_gpt p {
+  font-size: 1.2rem;
+  line-height: 17px; 
+   max-width: 220px;
+
+}  
+
+/* All column headings */
+ .footer-links h4,
+.footer-company h4,
+.footer-gettouch h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+} 
+
+ Lists 
+.footer-links ul,
+.footer-company ul,
+.footer-gettouch ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+ .footer-links li,
+.footer-company li,
+.footer-gettouch li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 3.7px;
+
+}
+.footer_last{
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 1.4rem;
+
+}
+

@@ -1,6 +1,7 @@
 .blog_section h2 {
     font-size: 4rem;
     line-height: 1.2;
+    padding: 2% 6%;
 }
 
 .blog_section header h2 {
@@ -16,6 +17,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 4em;
+    padding: 2% 6%;
  
 }
 
@@ -35,6 +37,7 @@
     background: var(--card-bg);
     position: relative;
     width: 300px;
+    
    
 }
 
