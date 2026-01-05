@@ -104,4 +104,87 @@
 
 }
 
+  @media (max-width: 430px) {
+
+  /* Container */
+  .container {
+    padding: 16px 12px;
+  }
+
+  /* About Section */
+  .about_section {
+    padding: 24px 16px;
+    gap:3px;
+    
+  }
   
+
+  /* Blur Circles */
+  .about_section .top_circle {
+    width: 120px;
+    height: 120px;
+    filter: blur(90px);
+  }
+
+  .about_section .bottom_circle {
+    width: 80px;
+    height: 120px;
+    filter: blur(50px);
+  }
+
+  /* Header Layout */
+  .about_section header {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .about_section header > h2 {
+    flex-basis: auto;
+    font-size: 1.9rem;
+  }
+
+  .about_section header > p {
+    flex-basis: auto;
+    font-size: 1.1rem;
+  }
+
+  /* Center Row */
+  .about_section .about_section_center {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .about_section .about_section_center h3 {
+    font-size: 1.8rem;
+  }
+
+  .about_section .about_section_center a {
+    font-size: 1.3rem;
+  }
+
+  /* Cards */
+  .about_section .about_section_cards {
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
+  }
+
+  .about_section .about_section_cards h4 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .about_section .about_section_cards p {
+    font-size: 1.1rem;
+  }
+
+  /* Gradient Line */
+  .gradient_line span {
+    width: 30px;
+    height: 3px;
+  }
+  .about_section .about_section_center a {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+}

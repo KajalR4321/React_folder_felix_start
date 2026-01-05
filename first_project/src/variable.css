@@ -30,5 +30,6 @@
     --bg-grad-1: #0F4279;
     --bg-grad-2: #1B78DE;
     --accent-color: #FF8A71;
-    --card-bg:var( --bg-grad-1)
+    --card-bg:var( --bg-grad-1);
+    overflow-x: hidden;
 }
