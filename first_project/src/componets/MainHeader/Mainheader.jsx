@@ -39,10 +39,13 @@ const MainHeader = () => {
         </button>
       </div>
       <button
-        className="hamburger_menu"
-        onClick={() => setOpen(!open)}>
-        {open ? "close" : "menu"}
-      </button>
+  className={`hamburger_menu ${open ? "active" : ""}`}
+  onClick={() => setOpen(!open)}
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
     </header>
   );
 };

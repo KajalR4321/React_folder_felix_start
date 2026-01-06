@@ -78,3 +78,21 @@
     display: block;
     padding: 0em 1.4em 2em;
 }
+/* Media query for ios 14 */
+@media (max-width: 430px){
+    .blog_section .blog_section__grid {
+   grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 7rem;
+    padding: 50px;
+    /* margin-top: 20px; */
+ 
+}
+
+.blog_section header h2 {
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+
+}

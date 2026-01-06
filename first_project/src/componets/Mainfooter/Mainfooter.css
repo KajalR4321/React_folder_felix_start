@@ -90,4 +90,93 @@
     font-size: 1.4rem;
 
 }
+/* @media (max-width: 430px) {
+
+  .footer_section {
+    margin-top: 3rem;
+    min-height: auto;
+    padding: 32px 16px;
+  }
+  .footer_heading{
+    font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  }
+  .footer_gpt h1 {
+  font-size: 32px;
+  margin-bottom: 13px;
+    white-space: nowrap;
+}
+
+  
+}
+
+ */
+ @media (max-width: 430px) {
+
+  .footer_section {
+    margin-top: 6rem;
+    min-height: auto;
+    padding: 32px 16px;
+  }
+
+  /* Top CTA Section */
+  .footer_main {
+    margin-bottom: 60px;
+  }
+
+  .footer_heading {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    margin-bottom: 28px;
+    font-weight: 700;
+  }
+
+  .footer_main a {
+    font-size: 2rem;
+    padding: 10px 16px;
+    display: inline-block;
+  }
+
+  /* Footer Grid */
+  .footer_brand {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    text-align: center;
+  }
+
+  /* Brand Section */
+  .footer_gpt h1 {
+    font-size: 3.4rem;
+  }
+
+  .footer_gpt p {
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  /* Footer Links */
+  .footer-links h4,
+  .footer-company h4,
+  .footer-gettouch h4 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .footer-links li,
+  .footer-company li,
+  .footer-gettouch li {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  /* Footer Bottom */
+  .footer_last {
+    margin-top: 6rem;
+    font-size: 1.3rem;
+  }
+}
 
