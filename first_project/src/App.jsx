@@ -1,6 +1,6 @@
 import MainHeader from "./componets/MainHeader/Mainheader";
 import Home from "./pages/Home";
-import MainFooter from "./componets/MainFooter/Mainfooter"
+import MainFooter from "./componets/Mainfooter/Mainfooter"
 
 
 function App() {
